@@ -3,7 +3,7 @@ def cauta_ruta_directa(routes, plecare, destinatie):
         statii = route["statii"]
 
         if plecare in statii and destinatie in statii:
-            index_start = statii.index(plecare)
+            index_start = statii.index(pl)
             index_stop = statii.index(destinatie)
 
             if index_start < index_stop:
