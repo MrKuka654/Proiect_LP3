@@ -132,7 +132,7 @@ def reset():
     rezultat.delete("1.0", tk.END)
 
     rezultat.insert(
-        tk.END,
+        tk.END ,
         "\n\nSelecteaza statiile dorite\nsi apasa 'Calculeaza Ruta'"
     )
 
