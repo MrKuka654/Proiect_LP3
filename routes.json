@@ -1,0 +1,30 @@
+[
+  {
+    "linie": "Tramvai 4",
+    "tip": "tramvai",
+    "cost": 3,
+    "timp_intre_statii": 4,
+    "statii": ["Complex", "Piata Maria", "Centru", "UPT"]
+  },
+  {
+    "linie": "Autobuz 33",
+    "tip": "autobuz",
+    "cost": 3,
+    "timp_intre_statii": 5,
+    "statii": ["Gara", "Centru", "UPT", "Complex"]
+  },
+  {
+    "linie": "Troleibuz 15",
+    "tip": "troleibuz",
+    "cost": 3,
+    "timp_intre_statii": 4,
+    "statii": ["Iulius Town", "Libertatii", "Centru", "Medicina"]
+  },
+  {
+    "linie": "Express E2",
+    "tip": "autobuz expres",
+    "cost": 4,
+    "timp_intre_statii": 3,
+    "statii": ["Camin 4", "Complex", "UPT"]
+  }
+]
