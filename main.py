@@ -3,7 +3,7 @@ from planner import cauta_ruta_directa, cauta_ruta_cu_schimbare
 from validator import valideaza_date
 
 with open("routes.json", "r", encoding="utf-8") as file:
-    routes = json.load(file)
+    routes = json.load()
 
 # dictionar pentru litere mici/mari
 toate_statiile = {}
