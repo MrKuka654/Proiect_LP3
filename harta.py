@@ -27,7 +27,7 @@ def arata_harta(root, ruta=None):
         canvas.create_oval(x-8, y-8, x+8, y+8, fill="white", outline="")
         canvas.create_text(
             x, y+20,
-            text=nume,
+            text = nume,
             fill="white",
             font=("Segoe UI", 10)
         )
